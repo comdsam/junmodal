@@ -1,0 +1,51 @@
+/* 여기부터 3번줄 까지는 테스트용이라 지워도 됩니다.*/
+#t-est-pictur-e {width: 600px; padding: 50px; margin: 50px; border: 1px solid #555;}
+#t-est-pictur-e img {width: 100px;}
+
+/* .jModal(); jun_modal_popup -style start- */
+/* jun_Modal_popup Code by comdsam@naver.com */
+#jun-modal-lbx {
+	display: none;
+}
+#jun-modal-lbx.on {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	z-index: 9999; /*만약 모달창이 제일위로 나타나지 않으면 z-index를 확인 하세요*/
+}
+#jun-modal-lbx.on #jun-img-lbx {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-items: center;
+	justify-content: center;
+}
+#jun-modal-lbx #jun-close-lbx {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+#jun-modal-lbx #jun-close-border-lbx {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	border-top: 2px solid #fff;
+	transform: rotate(45deg);
+}
+#jun-modal-lbx #jun-close-border-lbx::after {
+	content: '';
+	position: absolute;
+	top: -16px;
+	left: 14px;
+	width: 30px;
+	height: 30px;
+	border-left: 2px solid #fff;
+}
+/* .jModal(); jun_modal_popup -style end- */
