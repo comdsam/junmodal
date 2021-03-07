@@ -1,18 +1,18 @@
-[ jun_Modal_popup ¶óÀÌ¼¾½º °ü·Ã»çÇ×]
+[jun_Modal_popup ë¼ì´ì„¼ìŠ¤ ê´€ë ¨ì‚¬í•­]
 
-+ jun_Modal_popup Àº È­¸é Å©±â¿¡ °ü°è¾ø´Â ¹ÝÀÀÇüÀ¸·Î ¸¸µé¾î Á³½À´Ï´Ù.
-+ jun_Modal_popup Àº ÆÄÀÏ Å©±â°¡ ÀÛÀ¸¸ç ½±°í ºü¸£°Ô Àû¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
-+ °³ÀÎ¿ë, »ó¾÷¿ë ´©±¸³ª ¼öÁ¤, ¹èÆ÷, »ç¿ë °¡´É ÇÕ´Ï´Ù.
++ jun_Modal_popup ì€ í™”ë©´ í¬ê¸°ì— ê´€ê³„ì—†ëŠ” ë°˜ì‘í˜•ìœ¼ë¡œ ë§Œë“¤ì–´ ì¡ŒìŠµë‹ˆë‹¤.
++ jun_Modal_popup ì€ íŒŒì¼ í¬ê¸°ê°€ ìž‘ìœ¼ë©° ì‰½ê³  ë¹ ë¥´ê²Œ ì ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
++ ê°œì¸ìš©, ìƒì—…ìš© ëˆ„êµ¬ë‚˜ ìˆ˜ì •, ë°°í¬, ì‚¬ìš© ê°€ëŠ¥ í•©ë‹ˆë‹¤.
 + MIT License
 + Copyright (c) 2020 comdsam@naver.com
 
-[°ø½Ä ¹èÆ÷ À¥»çÀÌÆ®]
+[ê³µì‹ ë°°í¬ ì›¹ì‚¬ì´íŠ¸]
 https://github.com/comdsam/junmodal
 
 
-[»ç¿ë¹ý]
+[ì‚¬ìš©ë²•]
 
-1. HTML¿¡ jun_Modal_popup ÄÚ¾î ÆÄÀÏ »ðÀÔ
+1. HTMLì— jun_Modal_popup ì½”ì–´ íŒŒì¼ ì‚½ìž…
 
 /*  jun_Modal_popup core CSS file  */
 <link rel="stylesheet" href="plugin/jun_modal.css">
@@ -27,7 +27,7 @@ https://github.com/comdsam/junmodal
 <script src="plugin/jun_modal.js"></script>
 
 
-2. (¿¹½Ã) class="test1" Á÷°è ÀÚ½Ä aÅÂ±×ÀÇ ÀÌ¹ÌÁö Å¬¸¯½Ã ¸ð´Þ ÆË¾÷ ÇÏ±â.
+2. (ì˜ˆì‹œ) class="test1" ì§ê³„ ìžì‹ aíƒœê·¸ì˜ ì´ë¯¸ì§€ í´ë¦­ì‹œ ëª¨ë‹¬ íŒì—… í•˜ê¸°.
 
 /*  in HTML  */
 <div class="test1"><a href="img/testpic1.jpg">Open popup1</a></div>
@@ -38,7 +38,7 @@ $(document).ready(function() {
 });
 
 
-3. (¿¹½Ã) class="test2" ¸ðµç ÈÄ¼Õ aÅÂ±×ÀÇ ÀÌ¹ÌÁö Å¬¸¯½Ã ¸ð´Þ ÆË¾÷ ÇÏ±â. (jModal ÇÃ·¯±×ÀÎ ¿É¼Ç°ªÀ¸·Î 'all'ÀÔ·Â)
+3. (ì˜ˆì‹œ) class="test2" ëª¨ë“  í›„ì† aíƒœê·¸ì˜ ì´ë¯¸ì§€ í´ë¦­ì‹œ ëª¨ë‹¬ íŒì—… í•˜ê¸°. (jModal í”ŒëŸ¬ê·¸ì¸ ì˜µì…˜ê°’ìœ¼ë¡œ 'all'ìž…ë ¥)
 
 /*  in HTML  */
 <div class="test2">
