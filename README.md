@@ -1,2 +1,2 @@
-# junmodalpopup
+# junModalPopup
 freeware_junModalPopup
