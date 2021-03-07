@@ -26,7 +26,7 @@ https://github.com/comdsam/junmodal
 <script src="plugin/jun_modal.js"></script>
 
 
-2. (예시) class="test1" 직계 자식 a태그의 이미지 클릭시 모달 팝업 하기.
+2. (예시) class="test1" 직계 자식 a태그(이미지파일) 클릭시 모달 팝업 하기.
 
 /*  in HTML  */
 <div class="test1"><a href="img/testpic1.jpg">Open popup1</a></div>
@@ -37,7 +37,7 @@ $(document).ready(function() {
 });
 
 
-3. (예시) class="test2" 모든 후손 a태그의 이미지 클릭시 모달 팝업 하기. (jModal 플러그인 옵션값으로 'all'입력)
+3. (예시) class="test2" 모든 후손 a태그(이미지파일) 클릭시 모달 팝업 하기. (jModal 플러그인 옵션값으로 'all'입력)
 
 /*  in HTML  */
 <div class="test2">
