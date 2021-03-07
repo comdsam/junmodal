@@ -31,6 +31,8 @@
 						$imgPop.children('img').css('height', '100%');
 					}
 					$modalPop.addClass('on');
+				} else {
+					location.href = $(this).attr('href');
 				}
 			});
 
