@@ -16,7 +16,6 @@
 			$('.modal').jModal(); // .modal클랙스 직계 자식의 <a>태그로 감싸진 <img> 팝업
 			$('.modal-all').jModal('all'); // .modal-all클래스 모든 후손의 <a>태그로 감싸진 <img> 팝업
 		});
-
 	</script>
 </head>
 
@@ -32,9 +31,13 @@
 			<hr>
 			<a href="img/test-v.jpg"><img src="img/test-v.jpg" alt="직계자식">직계 a태그의 img태그 &rarr; modal popup (O)</a>
 			<hr>
-			<div><a href="img/test-1.jpg"><img src="img/test-1.jpg" alt="후손">후손에 속한 a태그 &rarr; 모달 팝업이 아닌 <strong>새창(new window)</strong>으로 열림</a></div>
+			<div><a href="img/test-1.jpg"><img src="img/test-1.jpg" alt="후손">후손에 속한 a태그 &rarr; 모달 팝업이 아닌 <strong>창(window)</strong>으로 열림</a></div>
 			<hr>
-			<div><img src="img/test-h.jpg" alt="후손"><span>a태그 없는 후손 img태그</span></div>
+			<div>
+				<img src="img/test-h.jpg" alt="후손"><span>a태그 없는 후손 img태그</span>
+			</div>
+			<hr>
+			<a href="https://www.google.com"><img src="img/test-1.jpg" alt="직계자식">직계 a태그 주소는 google.com &rarr; 현재창에서 google.com이 열림</a>
 		</div>
 
 		<div id="t-est-pictur-e" class="modal-all">
@@ -48,9 +51,13 @@
 				<a href="img/test-h.jpg"><img src="img/test-h.jpg" alt="후손">후손 a태그의 img태그 &rarr; modal popup (O)</a>
 			</div>
 			<hr>
-			<div><img src="img/test-1.jpg" alt="후손"><span>a태그 없는 후손 img태그</span></div>
+			<div>
+				<img src="img/test-1.jpg" alt="후손"><span>a태그 없는 후손 img태그</span>
+			</div>
+			<hr>
+			<div>
+				<div><a href="./subpage.html"><img src="img/test-1.jpg" alt="후손">후손 a태그 주소는 ./subpage.html &rarr; 현재창에서 ./subpage.html이 열림</a></div>
+			</div>
 		</div>
 	</main>
-</body>
-
-</html>
+</body></html>
